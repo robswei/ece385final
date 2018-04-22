@@ -1,0 +1,72 @@
+module spriteMapper(
+	input logic clk, buffer_sel,
+	input [9:0] x, y,
+	input [3:0] blockColor,
+	output [19:0] addr,
+	output [15:0] palletColor,
+	output logic complete
+);
+
+enum logic {
+	waiting,
+	drawing
+} state, next_state;
+logic [5:0] counter;
+logic [9:0] x_hold, y_hold;
+logic [7:0] blockColor_hold;
+
+always_ff @(posedge clk)
+begin
+		if(state == waiting) begin
+			counter <= 8'd0;
+			x_hold <= x;
+			y_hold <= y;
+			blockColor_hold <= blockColor;
+		end
+		else begin
+			counter++;
+		end
+		state <= next_state;
+end
+
+//Next_state logic
+always_comb begin
+	next_state = state;
+	case(state)
+		waiting: begin
+			if(blockColor != blockColor_hold || x != x_hold || y != y_hold)
+				next_state = drawing;
+			else
+				next_state = waiting;
+		end
+		drawing: begin
+			if(counter == 8'd63)
+				next_state = waiting;
+			else
+				next_state = drawing;
+		end
+	endcase
+end
+
+//Output logic
+always_comb begin
+	complete = 1'b0;
+	addr = 20'b0;
+	palletColor = {4{blockColor_hold}};
+	case(state)
+		waiting: begin
+			complete = 1'b1;
+		end
+		drawing: begin
+			if(counter[5:2] == 4'b0000 || counter[5:2] == 4'b1111)
+				palletColor = palletColor & 16'h0000;
+			else if(counter[1:0] == 2'b00)
+				palletColor = palletColor & 16'h0FFF;
+			else if (counter[1:0] == 2'b11)
+				palletColor = palletColor & 16'hFFF0;
+			addr = (counter << 5) + (counter << 3) + counter[1:0] + 20'd70;
+		end
+	endcase
+end
+
+endmodule : spriteMapper

@@ -1,0 +1,6 @@
+module sram_arbiter (
+	input logic clk, VGA_CLK,
+	output SRAM_WE
+);
+
+endmodule : sram_arbiter

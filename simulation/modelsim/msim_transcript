@@ -1,0 +1,252 @@
+# Reading E:/Programs/modelsim_ase/tcl/vsim/pref.tcl
+# do lab8_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying E:/Programs/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:/Programs/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+E:/Downloads/Lab8/Lab8 {E:/Downloads/Lab8/Lab8/color_mapper.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 00:37:29 on Dec 13,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Downloads/Lab8/Lab8" E:/Downloads/Lab8/Lab8/color_mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 00:37:29 on Dec 13,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/Downloads/Lab8/Lab8 {E:/Downloads/Lab8/Lab8/spriteMapper.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 00:37:29 on Dec 13,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Downloads/Lab8/Lab8" E:/Downloads/Lab8/Lab8/spriteMapper.sv 
+# -- Compiling module spriteMapper
+# 
+# Top level modules:
+# 	spriteMapper
+# End time: 00:37:30 on Dec 13,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/Downloads/Lab8/Lab8 {E:/Downloads/Lab8/Lab8/VGA_controller.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 00:37:30 on Dec 13,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Downloads/Lab8/Lab8" E:/Downloads/Lab8/Lab8/VGA_controller.sv 
+# -- Compiling module VGA_controller
+# 
+# Top level modules:
+# 	VGA_controller
+# End time: 00:37:30 on Dec 13,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/Downloads/Lab8/Lab8 {E:/Downloads/Lab8/Lab8/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 00:37:30 on Dec 13,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Downloads/Lab8/Lab8" E:/Downloads/Lab8/Lab8/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 00:37:30 on Dec 13,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/Downloads/Lab8/Lab8 {E:/Downloads/Lab8/Lab8/frame_buffer.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 00:37:30 on Dec 13,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Downloads/Lab8/Lab8" E:/Downloads/Lab8/Lab8/frame_buffer.sv 
+# -- Compiling module frame_buffer
+# 
+# Top level modules:
+# 	frame_buffer
+# End time: 00:37:30 on Dec 13,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/Downloads/Lab8/Lab8 {E:/Downloads/Lab8/Lab8/clear_ram.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 00:37:30 on Dec 13,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Downloads/Lab8/Lab8" E:/Downloads/Lab8/Lab8/clear_ram.sv 
+# -- Compiling module clear_ram
+# 
+# Top level modules:
+# 	clear_ram
+# End time: 00:37:31 on Dec 13,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/Downloads/Lab8/Lab8 {E:/Downloads/Lab8/Lab8/fb_write_arbiter.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 00:37:31 on Dec 13,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Downloads/Lab8/Lab8" E:/Downloads/Lab8/Lab8/fb_write_arbiter.sv 
+# -- Compiling module fb_write_arbiter
+# 
+# Top level modules:
+# 	fb_write_arbiter
+# End time: 00:37:31 on Dec 13,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/Downloads/Lab8/Lab8 {E:/Downloads/Lab8/Lab8/lab8.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 00:37:31 on Dec 13,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Downloads/Lab8/Lab8" E:/Downloads/Lab8/Lab8/lab8.sv 
+# -- Compiling module lab8
+# 
+# Top level modules:
+# 	lab8
+# End time: 00:37:31 on Dec 13,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib nios_system
+# ** Warning: (vlib-34) Library already exists at "nios_system".
+# 
+# vmap nios_system nios_system
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet nios_system nios_system 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+E:/Downloads/Lab8/Lab8 {E:/Downloads/Lab8/Lab8/testbench.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 00:37:31 on Dec 13,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Downloads/Lab8/Lab8" E:/Downloads/Lab8/Lab8/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:37:31 on Dec 13,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -L nios_system -voptargs="+acc"  testbench
+# vsim -gui "+altera" -l msim_transcript -do "lab8_run_msim_rtl_vhdl.do" 
+# Start time: 00:37:31 on Dec 13,2017
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.lab8
+# Loading work.VGA_controller
+# Loading work.clear_ram
+# Loading work.spriteMapper
+# Loading work.fb_write_arbiter
+# Loading work.frame_buffer
+# Loading work.color_mapper
+# Loading work.HexDriver
+# ** Warning: (vsim-3017) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Too few port connections. Expected 31, found 7.
+# 
+#         Region: /testbench/top_level
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'HEX0'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'HEX1'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'VGA_CLK'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'VGA_SYNC_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'VGA_BLANK_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'VGA_VS'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'VGA_HS'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_DATA'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_ADDR'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_CS_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_RD_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_WR_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_RST_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_INT'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_DQM'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10000 ns
+restart -f
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.lab8
+# Loading work.VGA_controller
+# Loading work.clear_ram
+# Loading work.spriteMapper
+# Loading work.fb_write_arbiter
+# Loading work.frame_buffer
+# Loading work.color_mapper
+# Loading work.HexDriver
+# ** Warning: (vsim-3017) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Too few port connections. Expected 31, found 7.
+# 
+#         Region: /testbench/top_level
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'HEX0'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'HEX1'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'VGA_CLK'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'VGA_SYNC_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'VGA_BLANK_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'VGA_VS'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'VGA_HS'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_DATA'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_ADDR'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_CS_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_RD_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_WR_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_RST_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'OTG_INT'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_DQM'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# 
+# ** Warning: (vsim-3722) E:/Downloads/Lab8/Lab8/testbench.sv(12): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# 
+do wave.do
+radix hex
+# hexadecimal
+run 1000ns
+# End time: 00:38:24 on Dec 13,2017, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 50

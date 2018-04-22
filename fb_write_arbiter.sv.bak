@@ -1,0 +1,7 @@
+module fb_write_arbiter(
+		input clear, sprite,
+		input [19:0] clear_w_addr, sprite_w_addr,
+		input [3:0] clear_wdata, sprite_wdata,
+		output [19:0] fb_w_addr,
+		output [3:0] fb_wdata
+);

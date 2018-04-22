@@ -1,0 +1,19 @@
+module frame_buffer(input logic Clk, 
+							input logic [3:0] wdata, 
+							input logic [19:0] w_addr,
+							input logic write,
+							input logic [19:0] r_addr,
+							output logic [3:0] rdata);
+
+logic [3:0] data [1:307199]
+							
+							
+always_ff @(posedge Clk) begin
+	if(write)
+		data[w_addr] <= wdata;
+end
+
+assign rdata = data[r_addr];
+
+endmodule : frame_buffer
+					
